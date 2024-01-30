@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Workout Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GoFitness is a web app that let's users track their workouts.
 
-Currently, two official plugins are available:
+The frontend was created using React.js and the backend was created using Node.js and Express. MongoDB was used for the database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features of this app include user sign up/log in/log out, RESTful API and API calls, integration with a database, and fullstack functionality for a CRUD app. Future updates will include a data analytics section to track workout progress as well as pages for tracking nutrition and sleep.
 
-## Expanding the ESLint configuration
+~ 7 hours to make
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Running the App
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+The live web app can be accessed at:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+For local deployment,
+
+1. Clone the repository
+2. In one terminal, '''cd server''' from the root terminal
+3. In second terminal, ''' cd client''' from the root terminal
+4. '''npm run dev''' in both to use app locally
+
+
+App Demonstration:
+[https://youtu.be/yeW2y5tKmAY](https://youtu.be/yeW2y5tKmAY)
