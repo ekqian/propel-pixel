@@ -17,9 +17,9 @@ The live web app can be accessed at:
 For local deployment,
 
 1. Clone the repository
-2. In one terminal, '''cd server''' from the root terminal
-3. In second terminal, ''' cd client''' from the root terminal
-4. '''npm run dev''' in both to use app locally
+2. In one terminal, ```cd server``` from the root terminal
+3. In second terminal, ```cd client``` from the root terminal
+4. ```npm run dev``` in both to use app locally
 
 
 App Demonstration:
